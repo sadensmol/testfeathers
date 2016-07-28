@@ -10,10 +10,10 @@ import flash.events.Event;
 
 import robotlegs.bender.bundles.mvcs.Mediator;
 
-public class GameMediator extends Mediator {
+public class WelcomeScreenMediator extends Mediator {
 
     [Inject]
-    public var view:GameScreen;
+    public var view:WelcomeScreen;
 
     [Inject]
     public var buttonCatchedSignal:ButtonCatchedSignal;

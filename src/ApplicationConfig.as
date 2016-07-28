@@ -57,7 +57,7 @@ public class ApplicationConfig implements IConfig {
 	}
 
 	private function mapMediators():void {
-        mediatorMap.map(GameScreen).toMediator(GameMediator);
+        mediatorMap.map(WelcomeScreen).toMediator(WelcomeScreenMediator);
     }
 
 }
